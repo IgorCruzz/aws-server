@@ -1,6 +1,5 @@
 import express, { json } from 'express';
 import cors from 'cors';
-import './database';
 import { serve, setup } from 'swagger-ui-express';
 import helmet from 'helmet';
 import routes from './routes/routes';
